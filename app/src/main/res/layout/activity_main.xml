@@ -23,23 +23,29 @@
 
         <ImageButton
             android:id="@+id/idplay"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
+            android:background="@drawable/bordes_redondeados"
+            app:srcCompat="@drawable/ic_baseline_play_arrow_24"
             android:onClick="music"
             />
         <ImageButton
             android:id="@+id/idpause"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/ic_baseline_pause_24"
+            android:background="@drawable/bordes_redondeados"
             android:layout_weight="1"
             android:onClick="music"
             />
         <ImageButton
             android:id="@+id/idstop"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
+            android:background="@drawable/bordes_redondeados"
+            app:srcCompat="@drawable/ic_baseline_stop_24"
             android:onClick="music"
             />
     </LinearLayout>
